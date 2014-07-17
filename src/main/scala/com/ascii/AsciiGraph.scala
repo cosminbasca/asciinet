@@ -4,6 +4,7 @@ import java.util
 
 import com.github.mdr.ascii.layout._
 import scala.collection.JavaConversions._
+import scala.util.control.Breaks._
 import org.yaml.snakeyaml.Yaml
 import org.yaml.snakeyaml.constructor.Constructor
 import scala.beans.BeanProperty
@@ -22,8 +23,15 @@ object AsciiGraph extends App {
   override def main(args: Array[String]): Unit = {
     val yaml = new Yaml(new Constructor(classOf[GraphDescriptor]))
 
-    val yamlText:String = Source.stdin.getLines().mkString("\n")
-    val gDescriptor:GraphDescriptor = yaml.load(yamlText).asInstanceOf[GraphDescriptor]
+    val lines: mutable.ListBuffer[String] = new mutable.ListBuffer[String]()
+    for(line: String <- Source.stdin.getLines()) {
+      if (line == "END") {
+        break()
+      }
+      lines.append(line)
+    }
+
+    val gDescriptor:GraphDescriptor = yaml.load(lines.mkString("\n")).asInstanceOf[GraphDescriptor]
 
     val graph = Graph(
       vertices = gDescriptor.getVertices.toList,

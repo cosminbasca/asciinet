@@ -40,10 +40,12 @@ def graph_to_ascii(graph):
         raise JavaNotFoundException('Java is not installed in the system path. Java is needed to run graph_to_ascii!')
 
     ascii_opts = []
-    command = ["java"] + [__ASCII_CLASS__] + ascii_opts
+    latest_version, jar_path = __JARS__[-1]
+    command = ["java", "-classpath", jar_path] + [__ASCII_CLASS__] + ascii_opts
     proc = Popen(command, stdout=PIPE, stdin=PIPE)
 
-    proc.stdin.writelines(graph_to_yaml(graph))
+    proc.stdin.write(graph_to_yaml(graph))
+    proc.stdin.write("END")
     ascii = proc.stdout.readline()
     return ascii
 
