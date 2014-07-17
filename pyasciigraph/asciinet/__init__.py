@@ -25,8 +25,8 @@ class JavaNotFoundException(Exception):
 def graph_to_yaml(graph):
     if not isinstance(graph, nx.Graph):
         raise ValueError('graph must be a networkx.Graph')
-    return yaml.dump("""vertices: [{0}]
-edges: [{1}]""".format(
+    return yaml.dump("""vertices: {0}
+edges: {1}""".format(
         [str(v) for v in graph.nodes_iter()],
         [[str(e[0]), str(e[1])] for e in graph.edges_iter()]
     ))

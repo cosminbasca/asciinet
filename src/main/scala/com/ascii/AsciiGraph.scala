@@ -13,7 +13,7 @@ import scala.collection.mutable
  * Created by basca on 17/07/14.
  */
 class GraphDescriptor {
-  @BeanProperty var vertices:mutable.Buffer[String] = new util.ArrayList[String]()
+  @BeanProperty var vertices = new util.ArrayList[String]()
   @BeanProperty var edges = new util.ArrayList[util.ArrayList[String]]()
 }
 
