@@ -7,14 +7,13 @@ import scala.collection.JavaConversions._
 import org.yaml.snakeyaml.Yaml
 import org.yaml.snakeyaml.constructor.Constructor
 import scala.beans.BeanProperty
-import scala.collection.mutable
 
 /**
  * Created by basca on 17/07/14.
  */
 class GraphDescriptor {
-  @BeanProperty var vertices = new util.ArrayList[String]()
-  @BeanProperty var edges = new util.ArrayList[util.ArrayList[String]]()
+  @BeanProperty var vertices: util.ArrayList[String] = new util.ArrayList[String]()
+  @BeanProperty var edges: util.ArrayList[util.ArrayList[String]] = new util.ArrayList[util.ArrayList[String]]()
 }
 
 object AsciiGraph extends App {
@@ -26,11 +25,11 @@ object AsciiGraph extends App {
       takeWhile(_ != "END").
       mkString("\n")
 
-    val gDescriptor:GraphDescriptor = yaml.load(text).asInstanceOf[GraphDescriptor]
+    val gDescriptor: GraphDescriptor = yaml.load(text).asInstanceOf[GraphDescriptor]
 
     val graph = Graph(
       vertices = gDescriptor.getVertices.toList,
-      edges = gDescriptor.getEdges.map{
+      edges = gDescriptor.getEdges.map {
         case edge: util.ArrayList[String] => (edge.get(0), edge.get(1))
       }.toList
     )
