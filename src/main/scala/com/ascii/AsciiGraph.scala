@@ -23,15 +23,11 @@ object AsciiGraph extends App {
   override def main(args: Array[String]): Unit = {
     val yaml = new Yaml(new Constructor(classOf[GraphDescriptor]))
 
-    val lines: mutable.ListBuffer[String] = new mutable.ListBuffer[String]()
-    for(line: String <- Source.stdin.getLines()) {
-      if (line == "END") {
-        break()
-      }
-      lines.append(line)
-    }
+    val text:String = Source.stdin.getLines().takeWhile(_ != "END").mkString("\n")
 
-    val gDescriptor:GraphDescriptor = yaml.load(lines.mkString("\n")).asInstanceOf[GraphDescriptor]
+    println(s"HAVE LINES = $text")
+
+    val gDescriptor:GraphDescriptor = yaml.load(text).asInstanceOf[GraphDescriptor]
 
     val graph = Graph(
       vertices = gDescriptor.getVertices.toList,
