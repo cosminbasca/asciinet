@@ -5,15 +5,15 @@ import AssemblyKeys._
 // assembly setup
 //
 // ---------------------------------------------------------------------------------------------------------------------
+assemblySettings
+
 name := "asciigraph"
 
 version := "0.1.0"
 
-
 scalaVersion := "2.10.4"
 
 scalacOptions ++= Seq("-optimize", "-Yinline-warnings", "-feature", "-deprecation")
-
 
 excludedJars in assembly <<= (fullClasspath in assembly) map { cp =>
   cp filter {

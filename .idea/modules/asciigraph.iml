@@ -4,7 +4,9 @@
     <facet type="scala" name="Scala">
       <configuration>
         <option name="compilerLibraryLevel" value="Project" />
-        <option name="compilerLibraryName" value="SBT:: scala-compiler-bundle:2.10.3" />
+        <option name="compilerLibraryName" value="SBT:: scala-compiler-bundle:2.10.4" />
+        <option name="compilerOptions" value="-optimize -Yinline-warnings -feature" />
+        <option name="deprecationWarnings" value="true" />
       </configuration>
     </facet>
   </component>
@@ -23,11 +25,13 @@
       <sourceFolder url="file://$MODULE_DIR$/../../src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/../../target/scala-2.10/resource_managed/test" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/../../src/test/resources" type="java-test-resource" />
-      <excludeFolder url="file://$MODULE_DIR$/../../target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.10.3" level="project" />
+    <orderEntry type="library" name="SBT: com.github.mdr:ascii-graphs_2.10:0.0.3" level="project" />
+    <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.10.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="SBT: org.scala-lang:scala-reflect:2.10.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="SBT: org.scalatest:scalatest_2.10:2.1.7" level="project" />
   </component>
 </module>
 
