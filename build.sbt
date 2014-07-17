@@ -45,3 +45,5 @@ libraryDependencies ++= Seq()
 libraryDependencies += ("org.scalatest" %% "scalatest" % "2.1.7" % "test")
 
 libraryDependencies += ("com.github.mdr" %% "ascii-graphs" % "0.0.3")
+
+libraryDependencies += ("org.yaml" % "snakeyaml" % "1.13")
