@@ -45,12 +45,10 @@ def graph_to_ascii(graph):
     proc = Popen(command, stdout=PIPE, stdin=PIPE)
 
     graph_yaml = graph_to_yaml(graph)
-    proc.stdin.write(graph_yaml)
-    proc.stdin.write("END")
-    print 'getting ascii!'
-    ascii = proc.stdout.readline()
-    print 'have ascii! = ', ascii
-    return ascii
+    proc.stdin.write("{0}\n".format(graph_yaml))
+    proc.stdin.write("END\n")
+    graph_ascii = proc.stdout.readline()
+    return graph_ascii
 
 
 if __name__ == '__main__':

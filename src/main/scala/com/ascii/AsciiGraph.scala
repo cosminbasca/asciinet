@@ -26,8 +26,6 @@ object AsciiGraph extends App {
       takeWhile(_ != "END").
       mkString("\n")
 
-    println(s"HAVE LINES = $text")
-
     val gDescriptor:GraphDescriptor = yaml.load(text).asInstanceOf[GraphDescriptor]
 
     val graph = Graph(
