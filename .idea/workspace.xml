@@ -91,8 +91,8 @@
       <file leaf-file-name="AsciiGraph.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/ascii/AsciiGraph.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.31895223" vertical-offset="0" max-vertical-offset="1298">
-              <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.33281973" vertical-offset="0" max-vertical-offset="1298">
+              <caret line="24" column="74" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
               <folding>
                 <element signature="e#19#35#0" expanded="true" />
               </folding>
@@ -686,7 +686,11 @@
       <created>1405584176103</created>
       <updated>1405584176103</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009">
+      <created>1405584542102</created>
+      <updated>1405584542102</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -817,8 +821,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/ascii/AsciiGraph.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31895223" vertical-offset="0" max-vertical-offset="1298">
-          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+        <state vertical-scroll-proportion="0.33281973" vertical-offset="0" max-vertical-offset="1298">
+          <caret line="24" column="74" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
           <folding>
             <element signature="e#19#35#0" expanded="true" />
           </folding>
