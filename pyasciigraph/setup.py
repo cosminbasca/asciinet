@@ -9,6 +9,7 @@ execfile('asciinet/__version__.py')
 pip_deps = [
     'networkx>=1.9',
     'natsort>=3.2.0',
+    'pyyaml>=3.10'
 ]
 
 manual_deps = [

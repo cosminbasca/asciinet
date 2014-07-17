@@ -8,6 +8,7 @@ import org.yaml.snakeyaml.Yaml
 import org.yaml.snakeyaml.constructor.Constructor
 import scala.beans.BeanProperty
 import scala.collection.mutable
+import scala.io.Source
 
 /**
  * Created by basca on 17/07/14.
@@ -20,7 +21,9 @@ class GraphDescriptor {
 object AsciiGraph extends App {
   override def main(args: Array[String]): Unit = {
     val yaml = new Yaml(new Constructor(classOf[GraphDescriptor]))
-    val gDescriptor:GraphDescriptor = yaml.load("").asInstanceOf[GraphDescriptor]
+
+    val yamlText:String = Source.stdin.getLines().mkString("\n")
+    val gDescriptor:GraphDescriptor = yaml.load(yamlText).asInstanceOf[GraphDescriptor]
 
     val graph = Graph(
       vertices = gDescriptor.getVertices.toList,
@@ -29,5 +32,6 @@ object AsciiGraph extends App {
       }.toList
     )
     val ascii = Layouter.renderGraph(graph)
+    println(ascii)
   }
 }
