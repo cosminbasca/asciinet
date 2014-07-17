@@ -14,7 +14,7 @@ import scala.collection.mutable
  */
 class GraphDescriptor {
   @BeanProperty var vertices:mutable.Buffer[String] = new util.ArrayList[String]()
-  @BeanProperty var edges:mutable.Buffer[mutable.Buffer[String]] = new util.ArrayList[util.ArrayList[String]]()
+  @BeanProperty var edges = new util.ArrayList[util.ArrayList[String]]()
 }
 
 object AsciiGraph extends App {
@@ -24,7 +24,9 @@ object AsciiGraph extends App {
 
     val graph = Graph(
       vertices = gDescriptor.getVertices.toList,
-      edges = gDescriptor.getEdges.toList
+      edges = gDescriptor.getEdges.map{
+        case edge: util.ArrayList[String] => (edge.get(0), edge.get(1))
+      }.toList
     )
     val ascii = Layouter.renderGraph(graph)
   }
