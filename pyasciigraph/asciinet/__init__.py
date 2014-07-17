@@ -3,7 +3,6 @@ from subprocess import Popen, PIPE, call
 from natsort import natsorted
 import networkx as nx
 import os
-import yaml
 
 __author__ = 'basca'
 
@@ -22,14 +21,13 @@ class JavaNotFoundException(Exception):
     pass
 
 
-def graph_to_yaml(graph):
+def graph_to_str(graph):
     if not isinstance(graph, nx.Graph):
         raise ValueError('graph must be a networkx.Graph')
-    return yaml.dump("""vertices: {0}
-edges: {1}""".format(
-        [str(v) for v in graph.nodes_iter()],
-        [[str(e[0]), str(e[1])] for e in graph.edges_iter()]
-    ))
+    return "{0}\n{1}\n".format(
+        '\n'.join(['vertex: {0}'.format(v) for v in graph.nodes_iter()]),
+        '\n'.join(['edge: {0}, {1}'.format(e[0], e[1]) for e in graph.edges_iter()])
+    )
 
 
 def graph_to_ascii(graph):
@@ -44,10 +42,10 @@ def graph_to_ascii(graph):
     command = ["java", "-classpath", jar_path] + [__ASCII_CLASS__] + ascii_opts
     proc = Popen(command, stdout=PIPE, stdin=PIPE)
 
-    graph_yaml = graph_to_yaml(graph)
-    proc.stdin.write("{0}\n".format(graph_yaml))
+    graph_repr = graph_to_str(graph)
+    proc.stdin.write("{0}".format(graph_repr))
     proc.stdin.write("END\n")
-    graph_ascii = proc.stdout.readline()
+    graph_ascii = proc.stdout.read()
     return graph_ascii
 
 
