@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/asciigraph.iml" filepath="$PROJECT_DIR$/.idea/modules/asciigraph.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/asciigraph-build.iml" filepath="$PROJECT_DIR$/.idea/modules/asciigraph-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pyasciigraph/pyasciigraph.iml" filepath="$PROJECT_DIR$/pyasciigraph/pyasciigraph.iml" />
     </modules>
   </component>
 </project>
