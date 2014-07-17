@@ -36,7 +36,7 @@ class BaseTestCase(TestCase):
    v     v
  +---+ +---+
  | 2 | | 3 |
- +---+ +---+""".replace('\n','').replace(' ','').replace('\t','').strip()
+ +---+ +---+""".replace('\n', '').replace(' ', '').replace('\t', '').strip()
 
     @classmethod
     def tearDownClass(cls):
