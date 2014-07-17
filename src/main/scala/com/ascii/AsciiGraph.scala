@@ -21,8 +21,8 @@ object AsciiGraph extends App {
         edges.append((edge(0).trim, edge(1).trim))
     }
 
-    val graph = Graph(vertices = vertices.toList, edges = edges.toList)
-    val ascii = Layouter.renderGraph(graph)
+    val graph:Graph[String] = Graph[String](vertices = vertices.toList, edges = edges.toList)
+    val ascii:String = Layouter.renderGraph[String](graph)
     println(ascii)
   }
 }

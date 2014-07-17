@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="d159f2ff-1e2c-437a-a738-be144cb10c9f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pyasciigraph/debug.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_scala_library_2_10_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_yaml_snakeyaml_1_13.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pyasciigraph/asciinet/__init__.py" afterPath="$PROJECT_DIR$/pyasciigraph/asciinet/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pyasciigraph/asciinet/__version__.py" afterPath="$PROJECT_DIR$/pyasciigraph/asciinet/__version__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/ascii/AsciiGraph.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/ascii/AsciiGraph.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="asciigraph.iws" />
@@ -80,11 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="__init__.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="__init__.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pyasciigraph/asciinet/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8363636" vertical-offset="402" max-vertical-offset="1062">
-              <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="402" max-vertical-offset="1062">
+              <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -92,21 +88,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.sh" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pyasciigraph/build.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="540">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AsciiGraph.scala" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AsciiGraph.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/ascii/AsciiGraph.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="396" max-vertical-offset="612">
-              <caret line="22" column="4" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.51975685" vertical-offset="0" max-vertical-offset="658">
+              <caret line="21" column="45" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -126,7 +112,6 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/ascii/package.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/ascii/Ascii.scala" />
         <option value="$PROJECT_DIR$/build.sbt" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/ascii/AsciiGraph.scala" />
         <option value="$PROJECT_DIR$/pyasciigraph/setup.py" />
         <option value="$PROJECT_DIR$/pyasciigraph/dependencies.txt" />
         <option value="$PROJECT_DIR$/pyasciigraph/build.sh" />
@@ -135,6 +120,7 @@
         <option value="$PROJECT_DIR$/pyasciigraph/asciinet/__version__.py" />
         <option value="$PROJECT_DIR$/pyasciigraph/asciinet/__init__.py" />
         <option value="$PROJECT_DIR$/pyasciigraph/debug.py" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/ascii/AsciiGraph.scala" />
       </list>
     </option>
   </component>
@@ -747,7 +733,11 @@
       <created>1405596858103</created>
       <updated>1405596858103</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="version 0.1.5&#10;&#10;- done, works nicely">
+      <created>1405625986103</created>
+      <updated>1405625986103</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -765,6 +755,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295626" sideWeight="0.500295" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295626" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -777,7 +768,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295626" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295626" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -797,7 +787,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="version 0.1.4&#10;&#10;- prints ascii! nice :)" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 0.1.4&#10;&#10;- prints ascii! nice :)" />
+    <MESSAGE value="version 0.1.5&#10;&#10;- done, works nicely" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 0.1.5&#10;&#10;- done, works nicely" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -886,14 +877,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/ascii/AsciiGraph.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
-          <caret line="22" column="4" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14285715" vertical-offset="75" max-vertical-offset="936">
@@ -960,11 +943,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pyasciigraph/asciinet/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8363636" vertical-offset="402" max-vertical-offset="1062">
-          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="402" max-vertical-offset="1062">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.github.mdr/ascii-graphs_2.10/srcs/ascii-graphs_2.10-0.0.3-sources.jar!/com/github/mdr/ascii/layout/Layout.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.33488372" vertical-offset="414" max-vertical-offset="5094">
+          <caret line="12" column="77" selection-start-line="12" selection-start-column="77" selection-end-line="12" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/com.github.mdr/ascii-graphs_2.10/srcs/ascii-graphs_2.10-0.0.3-sources.jar!/com/github/mdr/ascii/layout/Graph.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.62917936" vertical-offset="162" max-vertical-offset="990">
+          <caret line="33" column="61" selection-start-line="33" selection-start-column="61" selection-end-line="33" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/ascii/AsciiGraph.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51975685" vertical-offset="0" max-vertical-offset="658">
+          <caret line="21" column="45" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
