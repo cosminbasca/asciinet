@@ -16,6 +16,8 @@ __JARS_DICT__ = OrderedDict()
 for k, v in __JARS__:
     __JARS_DICT__[k] = v
 
+DEVNULL = open(os.devnull, 'w')
+
 __all__ = ['graph_to_ascii', 'JavaNotFoundException']
 
 
@@ -36,7 +38,7 @@ def graph_to_ascii(graph):
     if not isinstance(graph, nx.Graph):
         raise ValueError('graph must be a networkx.Graph')
 
-    if call(['java', '-version']) != 0:
+    if call(['java', '-version'], stderr=DEVNULL) != 0:
         raise JavaNotFoundException('Java is not installed in the system path. Java is needed to run graph_to_ascii!')
 
     ascii_opts = []
@@ -49,13 +51,3 @@ def graph_to_ascii(graph):
     proc.stdin.write("END\n")
     graph_ascii = proc.stdout.read()
     return graph_ascii
-
-
-if __name__ == '__main__':
-    G = nx.Graph()
-    G.add_node(1)
-    G.add_nodes_from([2, 3])
-    G.add_edge(1, 2)
-    G.add_edges_from([(1, 2), (1, 3)])
-
-    print graph_to_ascii(G)
