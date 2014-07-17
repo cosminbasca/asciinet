@@ -44,8 +44,8 @@ def graph_to_ascii(graph):
     command = ["java", "-classpath", jar_path] + [__ASCII_CLASS__] + ascii_opts
     proc = Popen(command, stdout=PIPE, stdin=PIPE)
 
-    gyaml = graph_to_yaml(graph)
-    proc.stdin.write(gyaml)
+    graph_yaml = graph_to_yaml(graph)
+    proc.stdin.write(graph_yaml)
     proc.stdin.write("END")
     print 'getting ascii!'
     ascii = proc.stdout.readline()
