@@ -1,0 +1,2 @@
+networkx>=1.9
+natsort>=3.2.0
