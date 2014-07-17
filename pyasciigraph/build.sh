@@ -13,8 +13,8 @@ cp `ls -t ${JAR_DIR}asciigraph-assembly-*.jar | head -1` ${LIB_DIR}
 
 echo "install dependencies ... "
 pip install -r "./dependencies.txt"
-echo "testing trushrdf ..."
-nosetests --rednose -v -s ./trushrdf/test/
+echo "testing asciinet ..."
+nosetests --rednose -v -s ./asciinet/test/
 echo "building module egg distribution ... "
 python setup.py bdist_egg
 echo "building source distribution ... "

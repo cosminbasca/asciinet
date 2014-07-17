@@ -16,6 +16,8 @@ __JARS_DICT__ = OrderedDict()
 for k, v in __JARS__:
     __JARS_DICT__[k] = v
 
+__all__ = ['graph_to_ascii', 'JavaNotFoundException']
+
 
 class JavaNotFoundException(Exception):
     pass
