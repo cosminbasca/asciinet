@@ -4,12 +4,10 @@ import java.util
 
 import com.github.mdr.ascii.layout._
 import scala.collection.JavaConversions._
-import scala.util.control.Breaks._
 import org.yaml.snakeyaml.Yaml
 import org.yaml.snakeyaml.constructor.Constructor
 import scala.beans.BeanProperty
 import scala.collection.mutable
-import scala.io.Source
 
 /**
  * Created by basca on 17/07/14.
@@ -23,7 +21,10 @@ object AsciiGraph extends App {
   override def main(args: Array[String]): Unit = {
     val yaml = new Yaml(new Constructor(classOf[GraphDescriptor]))
 
-    val text:String = Source.stdin.getLines().takeWhile(_ != "END").mkString("\n")
+    val text = Iterator.
+      continually(Console.readLine()).
+      takeWhile(_ != "END").
+      mkString("\n")
 
     println(s"HAVE LINES = $text")
 
