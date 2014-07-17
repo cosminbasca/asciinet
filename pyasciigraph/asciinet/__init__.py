@@ -2,6 +2,7 @@ from collections import OrderedDict
 from subprocess import Popen, PIPE, call
 from natsort import natsorted
 import networkx as nx
+import threading
 import os
 
 __author__ = 'basca'
@@ -34,7 +35,7 @@ def graph_to_str(graph):
     )
 
 
-def graph_to_ascii(graph):
+def graph_to_ascii(graph, timeout=20):
     if not isinstance(graph, nx.Graph):
         raise ValueError('graph must be a networkx.Graph')
 
@@ -49,5 +50,10 @@ def graph_to_ascii(graph):
     graph_repr = graph_to_str(graph)
     proc.stdin.write("{0}".format(graph_repr))
     proc.stdin.write("END\n")
+
+    tout = threading.Timer(timeout, proc.kill)
+    tout.start()
     graph_ascii = proc.stdout.read()
+    tout.cancel()
+
     return graph_ascii
