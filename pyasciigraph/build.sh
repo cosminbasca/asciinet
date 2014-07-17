@@ -19,5 +19,7 @@ echo "building module egg distribution ... "
 python setup.py bdist_egg
 echo "building source distribution ... "
 python setup.py sdist --formats=gztar
+echo "building module wheels distribution ... "
+python setup.py bdist_wheel
 
 echo "all done!"
