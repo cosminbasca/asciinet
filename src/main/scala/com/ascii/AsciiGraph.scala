@@ -12,17 +12,20 @@ object AsciiGraph extends App {
     val vertices: mutable.ListBuffer[String] = new mutable.ListBuffer[String]()
     val edges: mutable.ListBuffer[(String, String)] = new mutable.ListBuffer[(String, String)]()
 
-    Iterator.continually(Console.readLine()).takeWhile(_ != "END").foreach {
+    Iterator.continually(Console.readLine()).takeWhile(_ != "QUIT").foreach {
       case l if l.startsWith("vertex:") =>
         val vertex:String = l.replace("vertex:", "").trim
         vertices.append(vertex)
       case l if l.startsWith("edge:") =>
         val edge:Array[String] = l.replace("edge:", "").trim.split(",")
         edges.append((edge(0).trim, edge(1).trim))
+      case l if l == "END" =>
+        val graph:Graph[String] = Graph[String](vertices = vertices.toList, edges = edges.toList)
+        val ascii:String = Layouter.renderGraph[String](graph)
+        vertices.clear()
+        edges.clear()
+        println(ascii)
     }
-
-    val graph:Graph[String] = Graph[String](vertices = vertices.toList, edges = edges.toList)
-    val ascii:String = Layouter.renderGraph[String](graph)
-    println(ascii)
+    println("EXIT_OK")
   }
 }

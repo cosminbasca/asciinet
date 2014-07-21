@@ -1,6 +1,7 @@
 from asciinet import graph_to_ascii
 from asciinet.test.base import BaseTestCase
 
+
 __author__ = 'basca'
 
 

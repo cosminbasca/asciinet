@@ -1,0 +1,11 @@
+recursive-exclude build *
+recursive-exclude dist *
+exclude *.sh
+exclude *.csv
+exclude *.prof
+exclude *.log
+exclude *.log.*
+exclude *.pdf
+exclude *.iml
+exclude *.xlsx
+exclude _*.py

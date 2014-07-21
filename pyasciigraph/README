@@ -1,0 +1,12 @@
+geventmanager
+=============
+
+install
+-------
+
+to install from source, run the build.sh script. Or install from the provided tar.gz / egg file.
+
+external requirements
+---------------------
+
+?
