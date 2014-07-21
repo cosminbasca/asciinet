@@ -4,7 +4,7 @@
 		module="asciigraph-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20140721104850"
+		publication="20140721143559"
 		e:scalaVersion="2.10" e:sbtVersion="0.13"
 	>
 		<description>

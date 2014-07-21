@@ -9,7 +9,7 @@
 		extra-scalaVersion="2.10"
 		conf="test-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20140721104850"/>
+		date="20140721143559"/>
 	<dependencies>
 		<module organisation="com.eed3si9n" name="sbt-dirty-money">
 			<revision name="0.1.0" status="release" pubdate="20130821214216" resolver="sbt-chain" artresolver="sbt-chain" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="2">

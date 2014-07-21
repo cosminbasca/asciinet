@@ -9,7 +9,7 @@ assemblySettings
 
 name := "asciigraph"
 
-version := "0.1.1"
+version := "0.1.3"
 
 scalaVersion := "2.10.4"
 

@@ -1,31 +1,35 @@
 package com.ascii
 
-import com.github.mdr.ascii.layout._
-
-import scala.collection.mutable
+import com.github.mdr.ascii.layout.{Layouter, Graph}
+import com.simplehttp.BinaryMsgPackHandler
+import org.msgpack.`type`.Value
+import org.msgpack.ScalaMessagePack._
 
 /**
- * Created by basca on 17/07/14.
+ * Created by basca on 21/07/14.
  */
-object AsciiGraph extends App {
-  override def main(args: Array[String]): Unit = {
-    val vertices: mutable.ListBuffer[String] = new mutable.ListBuffer[String]()
-    val edges: mutable.ListBuffer[(String, String)] = new mutable.ListBuffer[(String, String)]()
-
-    Iterator.continually(Console.readLine()).takeWhile(_ != "QUIT").foreach {
-      case l if l.startsWith("vertex:") =>
-        val vertex:String = l.replace("vertex:", "").trim
-        vertices.append(vertex)
-      case l if l.startsWith("edge:") =>
-        val edge:Array[String] = l.replace("edge:", "").trim.split(",")
-        edges.append((edge(0).trim, edge(1).trim))
-      case l if l == "END" =>
-        val graph:Graph[String] = Graph[String](vertices = vertices.toList, edges = edges.toList)
-        val ascii:String = Layouter.renderGraph[String](graph)
-        vertices.clear()
-        edges.clear()
-        println(ascii)
+class AsciiGraph extends BinaryMsgPackHandler[Nothing, String] {
+  override def getResult(arguments: Map[String, Value], application: Option[Nothing]): String = {
+    val verticesArray: Array[String] = arguments.get("vertices") match {
+      case Some(vertices) => vertices.asArray[String]
+      case None => Array.empty[String]
     }
-    println("EXIT_OK")
+
+    val edgesArray: Array[(String, String)] = arguments.get("edges") match {
+      case Some(edges) =>
+        edges.asArrayValue().getElementArray.map {
+          case value: Value =>
+            val edge: Array[String] = value.asArray[String]
+            (edge(0), edge(1))
+        }
+      case None => Array.empty[(String, String)]
+    }
+
+    if (verticesArray.nonEmpty && edgesArray.nonEmpty) {
+      val graph: Graph[String] = Graph[String](vertices = verticesArray.toList, edges = edgesArray.toList)
+      Layouter.renderGraph[String](graph)
+    } else {
+      ""
+    }
   }
 }

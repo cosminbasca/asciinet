@@ -4,6 +4,9 @@ import networkx as nx
 import threading
 import atexit
 import os
+import requests
+from msgpack import dumps, loads
+from requests.exceptions import ConnectionError, Timeout
 
 __author__ = 'basca'
 
@@ -22,13 +25,8 @@ class JavaNotFoundException(Exception):
     pass
 
 
-def graph_to_str(graph):
-    if not isinstance(graph, nx.Graph):
-        raise ValueError('graph must be a networkx.Graph')
-    return "{0}\n{1}\n".format(
-        '\n'.join(['vertex: {0}'.format(v) for v in graph.nodes_iter()]),
-        '\n'.join(['edge: {0}, {1}'.format(e[0], e[1]) for e in graph.edges_iter()])
-    )
+class GraphConversionError(Exception):
+    pass
 
 
 class _AsciiGraphProxy(object):
@@ -38,39 +36,52 @@ class _AsciiGraphProxy(object):
             _AsciiGraphProxy._instance = _AsciiGraphProxy()
         return _AsciiGraphProxy._instance
 
-    def __init__(self):
+    def __init__(self, port=0):
         if call(['java', '-version'], stderr=DEVNULL) != 0:
             raise JavaNotFoundException(
                 'Java is not installed in the system path. Java is needed to run graph_to_ascii!')
-        ascii_opts = []
+        ascii_opts = [str(port), '--die_on_broken_pipe']
         latest_version, jar_path = __JARS__[-1]
-        self._command = ["java", "-classpath", jar_path] + ['.'.join(['com', 'ascii', 'AsciiGraph'])] + ascii_opts
+        self._command = ["java", "-classpath", jar_path] + ['.'.join(['com', 'ascii', 'Server'])] + ascii_opts
+        self._proc = None
+        self._port = None
+        self._url = None
+        self._start()
+
+    def _start(self):
         self._proc = Popen(self._command, stdout=PIPE, stdin=PIPE)
-
-    def graph_to_ascii(self, graph, timeout=20):
-        graph_repr = graph_to_str(graph)
-        self._proc.stdin.write("{0}".format(graph_repr))
-        self._proc.stdin.write("END\n")
-
-        def restart():
+        try:
+            self._port = int(self._proc.stdout.readline())
+        except Exception, e:
             self._proc.kill()
-            self._proc = Popen(self._command, stdout=PIPE, stdin=PIPE)
+            raise e
+        self._url = 'http://127.0.0.1:{0}/asciiGraph'.format(self._port)
 
-        tout = threading.Timer(timeout, restart)
-        tout.start()
-        graph_ascii = self._proc.stdout.read()
-        tout.cancel()
+    def _restart(self):
+        self._proc.kill()
+        self._start()
 
-        return graph_ascii
+    def graph_to_ascii(self, graph, timeout=10):
+        try:
+            graph_repr = dumps({
+                'vertices': [str(v) for v in graph.nodes_iter()],
+                'edges': [[str(e[0]), str(e[1])] for e in graph.edges_iter()],
+            })
+
+            response = requests.post(self._url, data=graph_repr, timeout=timeout)
+            if response.status_code == 200:
+                return loads(response.content)
+            else:
+                raise ValueError('internal error: \n{0}'.format(response.content))
+        except ConnectionError:
+            raise GraphConversionError('could not convert graph {0} to ascii'.format(graph))
+        except Timeout:
+            raise GraphConversionError('could not convert graph {0} to ascii'.format(graph))
+        finally:
+            self._restart()
 
     def close(self):
-        self._proc.stdin.write("QUIT\n")
-        tout = threading.Timer(2, self._proc.kill)
-        tout.start()
-        exit_ok = self._proc.stdout.read()
-        if exit_ok != 'EXIT_OK':
-            self._proc.kill()
-        tout.cancel()
+        self._proc.kill()
 
 
 _asciigraph = _AsciiGraphProxy.instance()
@@ -81,7 +92,7 @@ def _cleanup():
     _asciigraph.close()
 
 
-def graph_to_ascii(graph, timeout=20):
+def graph_to_ascii(graph, timeout=10):
     if not isinstance(graph, nx.Graph):
         raise ValueError('graph must be a networkx.Graph')
 

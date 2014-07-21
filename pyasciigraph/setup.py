@@ -20,6 +20,8 @@ with open('README') as f:
 pip_deps = [
     'networkx>=1.9',
     'natsort>=3.2.0',
+    'requests>=2.3.0',
+    'retrying>=1.2.2',
 ]
 
 manual_deps = [
