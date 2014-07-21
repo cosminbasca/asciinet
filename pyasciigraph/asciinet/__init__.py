@@ -73,12 +73,10 @@ class _AsciiGraphProxy(object):
                 return loads(response.content)
             else:
                 raise ValueError('internal error: \n{0}'.format(response.content))
-        except ConnectionError:
-            raise GraphConversionError('could not convert graph {0} to ascii'.format(graph))
-        except Timeout:
-            raise GraphConversionError('could not convert graph {0} to ascii'.format(graph))
-        finally:
+        except (ConnectionError, Timeout):
             self._restart()
+            raise GraphConversionError('could not convert graph {0} to ascii'.format(graph))
+
 
     def close(self):
         self._proc.kill()
