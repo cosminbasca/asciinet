@@ -30,17 +30,19 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="SBT: com.github.mdr:ascii-graphs_2.10:0.0.3" level="project" />
     <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.10.4" level="project" />
-    <orderEntry type="library" scope="TEST" name="SBT: org.scala-lang:scala-reflect:2.10.3" level="project" />
     <orderEntry type="library" scope="TEST" name="SBT: org.scalatest:scalatest_2.10:2.1.7" level="project" />
-    <orderEntry type="module-library">
-      <library name="SBT: unmanaged-jars">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../lib/simplehttp-assembly-0.1.4.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
+    <orderEntry type="library" name="SBT: com.googlecode.json-simple:json-simple:1.1.1" level="project" />
+    <orderEntry type="library" name="SBT: com.simplehttp:simplehttp_2.10:0.1.4" level="project" />
+    <orderEntry type="library" name="SBT: com.typesafe.scala-logging:scala-logging-api_2.10:2.1.2" level="project" />
+    <orderEntry type="library" name="SBT: com.typesafe.scala-logging:scala-logging-slf4j_2.10:2.1.2" level="project" />
+    <orderEntry type="library" name="SBT: log4j:log4j:1.2.17" level="project" />
+    <orderEntry type="library" name="SBT: org.javassist:javassist:3.16.1-GA" level="project" />
+    <orderEntry type="library" name="SBT: org.msgpack:msgpack:0.6.8" level="project" />
+    <orderEntry type="library" name="SBT: org.msgpack:msgpack-scala_2.10:0.6.8" level="project" />
+    <orderEntry type="library" name="SBT: org.scala-lang:scala-reflect:2.10.4" level="project" />
+    <orderEntry type="library" name="SBT: org.simpleframework:simple:5.1.6" level="project" />
+    <orderEntry type="library" name="SBT: org.slf4j:slf4j-api:1.7.7" level="project" />
+    <orderEntry type="library" name="SBT: org.slf4j:slf4j-log4j12:1.7.7" level="project" />
   </component>
 </module>
 
