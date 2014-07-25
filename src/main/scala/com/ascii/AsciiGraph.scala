@@ -8,8 +8,8 @@ import org.msgpack.ScalaMessagePack._
 /**
  * Created by basca on 21/07/14.
  */
-class AsciiGraph extends BinaryMsgPackHandler[Nothing, String] {
-  override def getResult(arguments: Map[String, Value], application: Option[Nothing]): String = {
+class AsciiGraph extends BinaryMsgPackHandler[Nothing] {
+  override def getResult(arguments: Map[String, Value], application: Option[Nothing]): Any = {
     val verticesArray: Array[String] = arguments.get("vertices") match {
       case Some(vertices) => vertices.asArray[String]
       case None => Array.empty[String]
