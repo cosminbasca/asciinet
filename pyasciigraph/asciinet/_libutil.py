@@ -1,4 +1,5 @@
 import os
+from subprocess import call
 from natsort import natsorted
 
 __author__ = 'basca'
@@ -13,3 +14,14 @@ __JARS__ = natsorted([(jar.replace("asciigraph-assembly-", "").replace(".jar", "
 def latest_jar():
     global __JARS__
     return __JARS__[-1]
+
+
+class JavaNotFoundException(Exception):
+    pass
+
+DEVNULL = open(os.devnull, 'w')
+
+def check_java(message=""):
+    if call(['java', '-version'], stderr=DEVNULL) != 0:
+        raise JavaNotFoundException(
+            'Java is not installed in the system path. {0}'.format(message))

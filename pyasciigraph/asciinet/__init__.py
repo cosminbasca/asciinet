@@ -7,17 +7,13 @@ import os
 import requests
 from msgpack import dumps, loads
 from requests.exceptions import ConnectionError, Timeout
-from asciinet._libutil import latest_jar
+from asciinet._libutil import latest_jar, check_java
 
 __author__ = 'basca'
 
 DEVNULL = open(os.devnull, 'w')
 
-__all__ = ['graph_to_ascii', 'JavaNotFoundException']
-
-
-class JavaNotFoundException(Exception):
-    pass
+__all__ = ['graph_to_ascii', 'JavaNotFoundException', 'GraphConversionError']
 
 
 class GraphConversionError(Exception):
@@ -32,9 +28,7 @@ class _AsciiGraphProxy(object):
         return _AsciiGraphProxy._instance
 
     def __init__(self, port=0):
-        if call(['java', '-version'], stderr=DEVNULL) != 0:
-            raise JavaNotFoundException(
-                'Java is not installed in the system path. Java is needed to run graph_to_ascii!')
+        check_java("Java is needed to run graph_to_ascii")
         ascii_opts = [str(port), '--die_on_broken_pipe']
         latest_version, jar_path = latest_jar()
         self._command = ["java", "-classpath", jar_path] + ['.'.join(['com', 'ascii', 'Server'])] + ascii_opts
