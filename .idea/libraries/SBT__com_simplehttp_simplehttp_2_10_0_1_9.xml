@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="SBT: com.simplehttp:simplehttp_2.10:0.1.9">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/local/com.simplehttp/simplehttp_2.10/0.1.9/jars/simplehttp_2.10.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.ivy2/local/com.simplehttp/simplehttp_2.10/0.1.9/docs/simplehttp_2.10-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/local/com.simplehttp/simplehttp_2.10/0.1.9/srcs/simplehttp_2.10-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
