@@ -14,7 +14,7 @@ if __name__ == '__main__':
     t0 = time()
     print graph_to_ascii(G)
     print 'took {0} seconds'.format(time() - t0)
-    for i in xrange(100):
-        t0 = time()
-        print graph_to_ascii(G, timeout=1)
-        print 'took {0} seconds'.format(time() - t0)
+    # for i in xrange(100):
+    #     t0 = time()
+    #     print graph_to_ascii(G, timeout=1)
+    #     print 'took {0} seconds'.format(time() - t0)

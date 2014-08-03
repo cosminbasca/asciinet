@@ -29,7 +29,7 @@ class _AsciiGraphProxy(object):
 
     def __init__(self, port=0):
         check_java("Java is needed to run graph_to_ascii")
-        ascii_opts = [str(port), '--die_on_broken_pipe']
+        ascii_opts = ['--port', str(port), '--die_on_broken_pipe']
         latest_version, jar_path = latest_jar()
         self._command = ["java", "-classpath", jar_path] + ['.'.join(['com', 'ascii', 'Server'])] + ascii_opts
         self._proc = None
