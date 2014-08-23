@@ -9,17 +9,11 @@ assemblySettings
 
 name := "asciigraph"
 
-version := "0.1.7"
+version := "0.1.9"
 
 scalaVersion := "2.10.4"
 
 scalacOptions ++= Seq("-optimize", "-Yinline-warnings", "-feature", "-deprecation")
-
-excludedJars in assembly <<= (fullClasspath in assembly) map { cp =>
-  cp filter {
-    _.data.getName == "minlog-1.2.jar"
-  }
-}
 
 // ---------------------------------------------------------------------------------------------------------------------
 //
@@ -46,4 +40,4 @@ libraryDependencies += ("org.scalatest" %% "scalatest" % "2.1.7" % "test")
 
 libraryDependencies += ("com.github.mdr" %% "ascii-graphs" % "0.0.3")
 
-libraryDependencies += ("com.simplehttp" %% "simplehttp" % "0.2.0")
+libraryDependencies += ("com.simplehttp" %% "simplehttp" % "0.2.2")

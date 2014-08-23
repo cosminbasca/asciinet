@@ -4,7 +4,7 @@
 		module="asciigraph-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20140721190309"
+		publication="20140823140449"
 		e:scalaVersion="2.10" e:sbtVersion="0.13"
 	>
 		<description>
@@ -33,9 +33,15 @@
 		<artifact name="asciigraph-build" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 	</publications>
 	<dependencies>
-		<dependency org="org.scala-lang" name="scala-compiler" rev="2.10.2" conf="scala-tool->default,optional(default)"/>
-		<dependency org="org.scala-lang" name="scala-library" rev="2.10.2" conf="scala-tool->default,optional(default);provided->default(compile)"/>
-		<dependency org="org.scala-sbt" name="sbt" rev="0.13.0" conf="provided->default(compile)"/>
+		<dependency org="org.scala-lang" name="scala-compiler" rev="2.10.3" conf="scala-tool->default,optional(default)"/>
+		<dependency org="org.scala-lang" name="scala-library" rev="2.10.3" conf="scala-tool->default,optional(default);provided->default(compile)"/>
+		<dependency org="org.scala-sbt" name="sbt" rev="0.13.2" conf="provided->default(compile)"/>
+		<dependency org="default" name="global-plugins" rev="0.0" conf="compile->default(compile)" e:scalaVersion="2.10" e:sbtVersion="0.13">
+			<artifact name="global-plugins" type="pom" ext="pom" conf="pom"/>
+			<artifact name="global-plugins" type="jar" ext="jar" conf="compile"/>
+			<artifact name="global-plugins" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="global-plugins" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
 		<dependency org="com.eed3si9n" name="sbt-assembly" rev="0.11.2" conf="compile->default(compile)" e:scalaVersion="2.10" e:sbtVersion="0.13"/>
 		<dependency org="com.eed3si9n" name="sbt-buildinfo" rev="0.3.2" conf="compile->default(compile)" e:scalaVersion="2.10" e:sbtVersion="0.13"/>
 		<dependency org="com.eed3si9n" name="sbt-dirty-money" rev="0.1.0" conf="compile->default(compile)" e:scalaVersion="2.10" e:sbtVersion="0.13"/>

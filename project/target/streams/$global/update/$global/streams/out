@@ -54,7 +54,7 @@
 [debug] == resolving dependencies for default#asciigraph-build;0.1-SNAPSHOT [provided]
 [debug] == resolving dependencies default#asciigraph-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [provided->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.10.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@57f68d7c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1ff61bcf
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.3
 [debug] 	typesafe-ivy-releases: revision in cache: org.scala-lang#scala-library;2.10.3
 [debug] 	found org.scala-lang#scala-library;2.10.3 in sbt-chain
@@ -1367,7 +1367,7 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.2!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.3!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 2269ms :: artifacts dl 84ms
+[debug] :: resolution report :: resolve 2200ms :: artifacts dl 41ms
 [debug] 	report for default#asciigraph-build;0.1-SNAPSHOT compile produced in /Users/basca/Workspace/sw/asciigraph/project/target/resolution-cache/reports/default-asciigraph-build-compile.xml
 [debug] 	report for default#asciigraph-build;0.1-SNAPSHOT runtime produced in /Users/basca/Workspace/sw/asciigraph/project/target/resolution-cache/reports/default-asciigraph-build-runtime.xml
 [debug] 	report for default#asciigraph-build;0.1-SNAPSHOT test produced in /Users/basca/Workspace/sw/asciigraph/project/target/resolution-cache/reports/default-asciigraph-build-test.xml
@@ -1381,5 +1381,5 @@
 [debug] 	report for default#asciigraph-build;0.1-SNAPSHOT docs produced in /Users/basca/Workspace/sw/asciigraph/project/target/resolution-cache/reports/default-asciigraph-build-docs.xml
 [debug] 	report for default#asciigraph-build;0.1-SNAPSHOT pom produced in /Users/basca/Workspace/sw/asciigraph/project/target/resolution-cache/reports/default-asciigraph-build-pom.xml
 [debug] 	report for default#asciigraph-build;0.1-SNAPSHOT scala-tool produced in /Users/basca/Workspace/sw/asciigraph/project/target/resolution-cache/reports/default-asciigraph-build-scala-tool.xml
-[debug] 	resolve done (2269ms resolve - 84ms download)
+[debug] 	resolve done (2200ms resolve - 41ms download)
 [info] Done updating.
