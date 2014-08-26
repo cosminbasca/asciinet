@@ -1,3 +1,4 @@
+# coding=utf-8
 import traceback
 from unittest import TestCase
 import functools
@@ -22,21 +23,26 @@ class BaseTestCase(TestCase):
     def setUpClass(cls):
         cls.graph = nx.Graph()
         cls.graph.add_node(1)
-        cls.graph.add_nodes_from([2, 3])
-        cls.graph.add_edge(1, 2)
-        cls.graph.add_edges_from([(1, 2), (1, 3)])
+        cls.graph.add_nodes_from([2, 3, 4])
+        cls.graph.add_edges_from([(1, 2), (1, 3), (3, 4), (1, 4), (2, 4)])
 
         cls.graph_repr = """
-   +-----+
-   |  1  |
-   +-----+
-     | |
-   --- ---
-   |     |
-   v     v
- +---+ +---+
- | 2 | | 3 |
- +---+ +---+""".replace('\n', '').replace(' ', '').replace('\t', '').strip()
+  ┌───────┐
+  │   1   │
+  └┬────┬┬┘
+   │    ││
+   │    └┼───┐
+   v     v   │
+ ┌───┐ ┌───┐ │
+ │ 2 │ │ 3 │ │
+ └──┬┘ └─┬─┘ │
+    │    │   │
+    │   ┌┼───┘
+    │   ││
+    v   vv
+  ┌───────┐
+  │   4   │
+  └───────┘   """.replace("\n", "").replace("\t", "").replace(" ", "").strip()
 
     @classmethod
     def tearDownClass(cls):

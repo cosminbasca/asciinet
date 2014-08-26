@@ -2,12 +2,12 @@
 clear
 echo "prepare ascii-graph jar ... "
 ROOT_DIR="././../"
-JAR_DIR=${ROOT_DIR}"target/scala-2.10/"
+JAR_DIR=${ROOT_DIR}"target/scala-2.11/"
 LIB_DIR=${ROOT_DIR}"pyasciigraph/asciinet/lib/"
 
 CWD=`pwd`
 cd ${ROOT_DIR}
-sbt compile assembly
+sbt +compile +assembly
 cd ${CWD}
 cp `ls -t ${JAR_DIR}asciigraph-assembly-*.jar | head -1` ${LIB_DIR}
 

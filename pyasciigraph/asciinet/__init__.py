@@ -1,4 +1,5 @@
 from subprocess import Popen, PIPE, call
+import uuid
 from natsort import natsorted
 import networkx as nx
 import threading
@@ -29,7 +30,8 @@ class _AsciiGraphProxy(object):
 
     def __init__(self, port=0):
         check_java("Java is needed to run graph_to_ascii")
-        ascii_opts = ['--port', str(port), '--die_on_broken_pipe']
+        self._prefix = '{0}='.format(uuid.uuid1())
+        ascii_opts = ['--port', str(port), '--die_on_broken_pipe', '--port_notification_prefix', self._prefix]
         latest_version, jar_path = latest_jar()
         self._command = ["java", "-classpath", jar_path] + ['.'.join(['com', 'ascii', 'Server'])] + ascii_opts
         self._proc = None
@@ -40,7 +42,11 @@ class _AsciiGraphProxy(object):
     def _start(self):
         self._proc = Popen(self._command, stdout=PIPE, stdin=PIPE)
         try:
-            self._port = int(self._proc.stdout.readline())
+            line = ''
+            while not line.startswith(self._prefix):
+                line = self._proc.stdout.readline()
+
+            self._port = int(line.replace(self._prefix, '').strip())
         except Exception, e:
             self._proc.kill()
             raise e

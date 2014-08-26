@@ -1,6 +1,7 @@
 package com.ascii
 
-import com.github.mdr.ascii.layout.{Layouter, Graph}
+import com.github.mdr.ascii.graph.Graph
+import com.github.mdr.ascii.layout.GraphLayout
 import com.simplehttp.MsgpackMapHandler
 import org.msgpack.`type`.Value
 import org.msgpack.ScalaMessagePack._
@@ -26,8 +27,8 @@ class AsciiGraph extends MsgpackMapHandler[Nothing] {
     }
 
     if (verticesArray.nonEmpty && edgesArray.nonEmpty) {
-      val graph: Graph[String] = Graph[String](vertices = verticesArray.toList, edges = edgesArray.toList)
-      Layouter.renderGraph[String](graph)
+      val graph: Graph[String] = Graph[String](vertices = verticesArray.toSet, edges = edgesArray.toList)
+      GraphLayout.renderGraph[String](graph)
     } else {
       ""
     }
