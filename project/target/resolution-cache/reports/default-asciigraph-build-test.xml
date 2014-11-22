@@ -9,10 +9,10 @@
 		extra-scalaVersion="2.10"
 		conf="test"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20140823140449"/>
+		date="20141122190404"/>
 	<dependencies>
 		<module organisation="com.eed3si9n" name="sbt-dirty-money">
-			<revision name="0.1.0" status="release" pubdate="20130821214216" resolver="sbt-chain" artresolver="sbt-chain" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="4">
+			<revision name="0.1.0" status="release" pubdate="20130821214216" resolver="sbt-chain" artresolver="sbt-chain" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="2">
 				<license name="MIT License" url="https://github.com/sbt/sbt-dirty-money/blob/master/LICENSE"/>
 				<metadata-artifact status="no" details="" size="1749" time="0" location="/Users/basca/.ivy2/cache/scala_2.10/sbt_0.13/com.eed3si9n/sbt-dirty-money/ivy-0.1.0.xml" searched="false" origin-is-local="false" origin-location="http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-dirty-money/scala_2.10/sbt_0.13/0.1.0/ivys/ivy.xml"/>
 				<caller organisation="default" name="asciigraph-build" conf="test, compile, runtime" rev="0.1.0" rev-constraint-default="0.1.0" rev-constraint-dynamic="0.1.0" callerrev="0.1-SNAPSHOT" extra-sbtVersion="0.13" extra-scalaVersion="2.10"/>
@@ -24,7 +24,7 @@
 			</revision>
 		</module>
 		<module organisation="com.eed3si9n" name="sbt-buildinfo">
-			<revision name="0.3.2" status="release" pubdate="20140601194331" resolver="sbt-chain" artresolver="sbt-chain" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="3">
+			<revision name="0.3.2" status="release" pubdate="20140601194331" resolver="sbt-chain" artresolver="sbt-chain" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="1">
 				<license name="MIT License" url="https://github.com/sbt/sbt-buildinfo/blob/master/LICENSE"/>
 				<metadata-artifact status="no" details="" size="1752" time="0" location="/Users/basca/.ivy2/cache/scala_2.10/sbt_0.13/com.eed3si9n/sbt-buildinfo/ivy-0.3.2.xml" searched="false" origin-is-local="false" origin-location="http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-buildinfo/scala_2.10/sbt_0.13/0.3.2/ivys/ivy.xml"/>
 				<caller organisation="default" name="asciigraph-build" conf="test, compile, runtime" rev="0.3.2" rev-constraint-default="0.3.2" rev-constraint-dynamic="0.3.2" callerrev="0.1-SNAPSHOT" extra-sbtVersion="0.13" extra-scalaVersion="2.10"/>
@@ -36,33 +36,13 @@
 			</revision>
 		</module>
 		<module organisation="com.eed3si9n" name="sbt-assembly">
-			<revision name="0.11.2" status="release" pubdate="20140319165202" resolver="sbt-chain" artresolver="sbt-chain" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="2">
+			<revision name="0.11.2" status="release" pubdate="20140319165202" resolver="sbt-chain" artresolver="sbt-chain" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="0">
 				<license name="MIT License" url="https://github.com/sbt/sbt-assembly/blob/master/LICENSE"/>
 				<metadata-artifact status="no" details="" size="1564" time="0" location="/Users/basca/.ivy2/cache/scala_2.10/sbt_0.13/com.eed3si9n/sbt-assembly/ivy-0.11.2.xml" searched="false" origin-is-local="false" origin-location="http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.11.2/ivys/ivy.xml"/>
 				<caller organisation="default" name="asciigraph-build" conf="test, compile, runtime" rev="0.11.2" rev-constraint-default="0.11.2" rev-constraint-dynamic="0.11.2" callerrev="0.1-SNAPSHOT" extra-sbtVersion="0.13" extra-scalaVersion="2.10"/>
 				<artifacts>
 					<artifact name="sbt-assembly" type="jar" ext="jar" status="no" details="" size="153282" time="0" location="/Users/basca/.ivy2/cache/scala_2.10/sbt_0.13/com.eed3si9n/sbt-assembly/jars/sbt-assembly-0.11.2.jar">
 						<origin-location is-local="false" location="http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.eed3si9n/sbt-assembly/scala_2.10/sbt_0.13/0.11.2/jars/sbt-assembly.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="default" name="global-plugins">
-			<revision name="0.0" status="integration" pubdate="20140823140448" resolver="inter-project" artresolver="inter-project" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="0">
-				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
-				<caller organisation="default" name="asciigraph-build" conf="test, compile, runtime" rev="0.0" rev-constraint-default="0.0" rev-constraint-dynamic="0.0" callerrev="0.1-SNAPSHOT" extra-sbtVersion="0.13" extra-scalaVersion="2.10"/>
-				<artifacts>
-				</artifacts>
-			</revision>
-		</module>
-		<module organisation="org.jetbrains" name="sbt-structure">
-			<revision name="2.4.0" status="release" pubdate="20140527185841" resolver="sbt-chain" artresolver="sbt-chain" extra-sbtVersion="0.13" extra-scalaVersion="2.10" downloaded="false" searched="false" default="false" conf="default(compile), compile" position="1">
-				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="no" details="" size="1614" time="0" location="/Users/basca/.ivy2/cache/scala_2.10/sbt_0.13/org.jetbrains/sbt-structure/ivy-2.4.0.xml" searched="false" origin-is-local="false" origin-location="http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.jetbrains/sbt-structure/scala_2.10/sbt_0.13/2.4.0/ivys/ivy.xml"/>
-				<caller organisation="default" name="global-plugins" conf="compile" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="0.0" extra-sbtVersion="0.13" extra-scalaVersion="2.10"/>
-				<artifacts>
-					<artifact name="sbt-structure" type="jar" ext="jar" status="no" details="" size="202182" time="0" location="/Users/basca/.ivy2/cache/scala_2.10/sbt_0.13/org.jetbrains/sbt-structure/jars/sbt-structure-2.4.0.jar">
-						<origin-location is-local="false" location="http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.jetbrains/sbt-structure/scala_2.10/sbt_0.13/2.4.0/jars/sbt-structure.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>

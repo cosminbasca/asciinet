@@ -9,9 +9,9 @@ assemblySettings
 
 name := "asciigraph"
 
-version := "0.2.0"
+version := "0.2.1"
 
-scalaVersion := "2.11.2"
+scalaVersion := "2.11.4"
 
 crossScalaVersions := Seq("2.10.4", "2.11.2")
 
@@ -42,4 +42,4 @@ libraryDependencies += ("org.scalatest" %% "scalatest" % "2.1.7" % "test")
 
 libraryDependencies += ("com.github.mdr" %% "ascii-graphs" % "0.0.7")
 
-libraryDependencies += ("com.simplehttp" %% "simplehttp" % "0.2.4")
+libraryDependencies += ("com.simplehttp" %% "simplehttp" % "0.3.0")

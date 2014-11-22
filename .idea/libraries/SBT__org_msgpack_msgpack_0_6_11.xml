@@ -1,13 +1,9 @@
 <component name="libraryTable">
   <library name="SBT: org.msgpack:msgpack:0.6.11">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.ivy2/cache/org.msgpack/msgpack/jars/msgpack-0.6.11.jar!/" />
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.msgpack/msgpack/bundles/msgpack-0.6.11.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/.ivy2/cache/org.msgpack/msgpack/docs/msgpack-0.6.11-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$USER_HOME$/.ivy2/cache/org.msgpack/msgpack/srcs/msgpack-0.6.11-sources.jar!/" />
-    </SOURCES>
+    <JAVADOC />
+    <SOURCES />
   </library>
 </component>

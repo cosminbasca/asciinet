@@ -3,11 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.ivy2/cache/org.msgpack/msgpack-scala_2.11/jars/msgpack-scala_2.11-0.6.11.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/.ivy2/cache/org.msgpack/msgpack-scala_2.11/docs/msgpack-scala_2.11-0.6.11-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$USER_HOME$/.ivy2/cache/org.msgpack/msgpack-scala_2.11/srcs/msgpack-scala_2.11-0.6.11-sources.jar!/" />
-    </SOURCES>
+    <JAVADOC />
+    <SOURCES />
   </library>
 </component>

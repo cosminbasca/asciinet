@@ -2,12 +2,248 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="d159f2ff-1e2c-437a-a738-be144cb10c9f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pyasciigraph/requirements.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pyasciigraph/requirements.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$081f11a6317c653ad6be$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$081f11a6317c653ad6be$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$081f11a6317c653ad6be.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$199aed1c4a6cadfe5bab$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$199aed1c4a6cadfe5bab$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$199aed1c4a6cadfe5bab.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$1a10b4b12d006f561a7d$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$1a10b4b12d006f561a7d$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$1a10b4b12d006f561a7d.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$240e278a9ccafc73a758$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$240e278a9ccafc73a758.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$2e0dfd9443d9c5ea9ec2$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$2e0dfd9443d9c5ea9ec2$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$2e0dfd9443d9c5ea9ec2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$2fb9bb9d556205e4eec7$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$2fb9bb9d556205e4eec7$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$2fb9bb9d556205e4eec7.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$39c5e680dee63caa6a64$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$39c5e680dee63caa6a64$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$39c5e680dee63caa6a64.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$3b62192dd267c0772cb3$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$3b62192dd267c0772cb3$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$3b62192dd267c0772cb3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$3bbaf4f259bf1482a528$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$3bbaf4f259bf1482a528$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$3bbaf4f259bf1482a528.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$3cf7073214d9ede5339d$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$3cf7073214d9ede5339d$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$3cf7073214d9ede5339d.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$4520bc72862f0fee85e6$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$4520bc72862f0fee85e6$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$4520bc72862f0fee85e6.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$46abe603945a8d610ba4$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$46abe603945a8d610ba4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$49d18c7beb356ad13c7b$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$49d18c7beb356ad13c7b$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$49d18c7beb356ad13c7b.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$4fc5804306515fc82bb3$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$4fc5804306515fc82bb3$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$4fc5804306515fc82bb3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$53ab952b8edb18577693$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$53ab952b8edb18577693$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$53ab952b8edb18577693.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$56fd13e5c2c034722aa3$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$56fd13e5c2c034722aa3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$5de0ef1164b8d40ecd3e$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$5de0ef1164b8d40ecd3e$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$5de0ef1164b8d40ecd3e.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$74fe2d67474379b6dc5f$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$74fe2d67474379b6dc5f$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$74fe2d67474379b6dc5f.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$750526df5784a23bd83f$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$750526df5784a23bd83f$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$750526df5784a23bd83f.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$76bf090571bc178f1052$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$76bf090571bc178f1052$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$76bf090571bc178f1052.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$7c6405447769aac4fa12$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$7c6405447769aac4fa12.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$94b9594cac3e165fbd83$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$94b9594cac3e165fbd83$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$94b9594cac3e165fbd83.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$9c3b28e98056e97d9b42$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$9c3b28e98056e97d9b42.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$9f9b9261ba6a495298bf$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$9f9b9261ba6a495298bf$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$9f9b9261ba6a495298bf.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$ae2a27266fdac0fe009c$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$ae2a27266fdac0fe009c$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$ae2a27266fdac0fe009c.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$b03dcb462b60068f9df5$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$b03dcb462b60068f9df5$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$b03dcb462b60068f9df5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$b2b12022ffcaf762aecf$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$b2b12022ffcaf762aecf$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$b2b12022ffcaf762aecf.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$b6507cd1164f5aa2eea3$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$b6507cd1164f5aa2eea3$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$b6507cd1164f5aa2eea3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$b6598778612959101a49$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$b6598778612959101a49$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$b6598778612959101a49.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$b8011b182d43c04c2fe3$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$b8011b182d43c04c2fe3$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$b8011b182d43c04c2fe3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$c14549e2169ff6bc92fb$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$c14549e2169ff6bc92fb$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$c14549e2169ff6bc92fb.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$c25e0059497b3ef96e39$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$c25e0059497b3ef96e39$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$c25e0059497b3ef96e39.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$cb7bf7ffc838c8871dec$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$cb7bf7ffc838c8871dec$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$cb7bf7ffc838c8871dec.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$ceb6769669955b866f48$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$ceb6769669955b866f48$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$ceb6769669955b866f48.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$d2e4867cc89e9f048857$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$d2e4867cc89e9f048857$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$d2e4867cc89e9f048857.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$d831cccd8713b44a3d9e$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$d831cccd8713b44a3d9e$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$d831cccd8713b44a3d9e.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$de41b01ad0e3d10693dd$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$de41b01ad0e3d10693dd$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$de41b01ad0e3d10693dd.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$deceec2a9892c0e2b021$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$deceec2a9892c0e2b021$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$deceec2a9892c0e2b021.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$e4f08aaa88fac01f569c$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$e4f08aaa88fac01f569c$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$e4f08aaa88fac01f569c.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$e75289348889941cda3d$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$e75289348889941cda3d.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$e78b709a118dd216360c$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$e78b709a118dd216360c$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$e78b709a118dd216360c.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$eb9cdc012263a2a50409$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$eb9cdc012263a2a50409$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$eb9cdc012263a2a50409.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$edf293a7d792867c16fd$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$edf293a7d792867c16fd$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$edf293a7d792867c16fd.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$eef324bd9bbcf7dea3f7$$anonfun$$sbtdef$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$eef324bd9bbcf7dea3f7$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$eef324bd9bbcf7dea3f7.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pyasciigraph/asciinet/lib/asciigraph-assembly-0.2.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$081f11a6317c653ad6be.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$199aed1c4a6cadfe5bab.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$1a10b4b12d006f561a7d.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$240e278a9ccafc73a758.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$2e0dfd9443d9c5ea9ec2.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$2fb9bb9d556205e4eec7.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$39c5e680dee63caa6a64.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$3b62192dd267c0772cb3.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$3bbaf4f259bf1482a528.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$3cf7073214d9ede5339d.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$4520bc72862f0fee85e6.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$46abe603945a8d610ba4.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$49d18c7beb356ad13c7b.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$4fc5804306515fc82bb3.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$53ab952b8edb18577693.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$56fd13e5c2c034722aa3.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$5de0ef1164b8d40ecd3e.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$74fe2d67474379b6dc5f.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$750526df5784a23bd83f.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$76bf090571bc178f1052.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$7c6405447769aac4fa12.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$94b9594cac3e165fbd83.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$9c3b28e98056e97d9b42.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$9f9b9261ba6a495298bf.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$ae2a27266fdac0fe009c.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$b03dcb462b60068f9df5.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$b2b12022ffcaf762aecf.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$b6507cd1164f5aa2eea3.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$b6598778612959101a49.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$b8011b182d43c04c2fe3.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$c14549e2169ff6bc92fb.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$c25e0059497b3ef96e39.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$cb7bf7ffc838c8871dec.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$ceb6769669955b866f48.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$d2e4867cc89e9f048857.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$d831cccd8713b44a3d9e.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$de41b01ad0e3d10693dd.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$deceec2a9892c0e2b021.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$e4f08aaa88fac01f569c.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$e75289348889941cda3d.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/project/target/config-classes/$e78b709a118dd216360c.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$eb9cdc012263a2a50409.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$edf293a7d792867c16fd.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/target/config-classes/$eef324bd9bbcf7dea3f7.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_simplehttp_simplehttp_2_11_0_3_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_scala_library_2_11_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_simpleframework_simple_common_6_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_simpleframework_simple_http_6_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_simpleframework_simple_transport_6_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$" afterPath="$PROJECT_DIR$" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/inputs" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/inputs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/output" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/output" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/output" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/output" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_github_mdr_ascii_graphs_2_11_0_0_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_github_mdr_ascii_graphs_2_11_0_0_7.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_github_scopt_scopt_2_11_3_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_github_scopt_scopt_2_11_3_2_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_googlecode_json_simple_json_simple_1_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_googlecode_json_simple_json_simple_1_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_typesafe_scala_logging_scala_logging_api_2_11_2_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_typesafe_scala_logging_scala_logging_api_2_11_2_1_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_typesafe_scala_logging_scala_logging_slf4j_2_11_2_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_typesafe_scala_logging_scala_logging_slf4j_2_11_2_1_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__log4j_log4j_1_2_17.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__log4j_log4j_1_2_17.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_javassist_javassist_3_18_1_GA.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_javassist_javassist_3_18_1_GA.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_msgpack_msgpack_0_6_11.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_msgpack_msgpack_0_6_11.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_msgpack_msgpack_scala_2_11_0_6_11.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_msgpack_msgpack_scala_2_11_0_6_11.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_modules_scala_parser_combinators_2_11_1_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_modules_scala_parser_combinators_2_11_1_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_modules_scala_xml_2_11_1_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_modules_scala_xml_2_11_1_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_scala_library_2_11_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_scala_library_2_11_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_scala_reflect_2_11_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_scala_reflect_2_11_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_scalatest_scalatest_2_11_2_1_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_scalatest_scalatest_2_11_2_1_7.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_slf4j_slf4j_api_1_7_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_slf4j_slf4j_api_1_7_7.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_slf4j_slf4j_log4j12_1_7_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_slf4j_slf4j_log4j12_1_7_7.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pyasciigraph/asciinet/__version__.py" afterPath="$PROJECT_DIR$/pyasciigraph/asciinet/__version__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/asciigraph-build.iml" afterPath="$PROJECT_DIR$/.idea/modules/asciigraph-build.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/asciigraph.iml" afterPath="$PROJECT_DIR$/.idea/modules/asciigraph.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.sbt" afterPath="$PROJECT_DIR$/build.sbt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pyasciigraph/build.sh" afterPath="$PROJECT_DIR$/pyasciigraph/build.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-asciigraph-build-compile-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-asciigraph-build-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-asciigraph-build-compile.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-asciigraph-build-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-asciigraph-build-docs.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-asciigraph-build-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-asciigraph-build-optional.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-asciigraph-build-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-asciigraph-build-plugin.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-asciigraph-build-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-asciigraph-build-pom.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-asciigraph-build-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-asciigraph-build-provided.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-asciigraph-build-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-asciigraph-build-runtime-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-asciigraph-build-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-asciigraph-build-runtime.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-asciigraph-build-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-asciigraph-build-scala-tool.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-asciigraph-build-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-asciigraph-build-sources.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-asciigraph-build-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-asciigraph-build-test-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-asciigraph-build-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-asciigraph-build-test.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-asciigraph-build-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/highlighting.xml" afterPath="$PROJECT_DIR$/.idea/highlighting.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/ivyConfiguration/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/asciigraph-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/asciigraph-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/asciigraph-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/asciigraph-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sbt.xml" afterPath="$PROJECT_DIR$/.idea/sbt.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="asciigraph.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/target/scala-2.11/classes/" />
+    <ignored path="$PROJECT_DIR$/target/scala-2.11/test-classes/" />
+    <ignored path="$PROJECT_DIR$/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/project/target/" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/resolution-cache/" />
+    <ignored path="$PROJECT_DIR$/target/scala-2.10/" />
+    <ignored path="$PROJECT_DIR$/target/streams/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,61 +303,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="__init__.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pyasciigraph/asciinet/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1206" max-vertical-offset="1764">
-              <caret line="67" column="49" selection-start-line="67" selection-start-column="46" selection-end-line="67" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pyasciigraph/asciinet/test/base.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="792" max-vertical-offset="1062">
-              <caret line="44" column="78" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="78" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_debug.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pyasciigraph/_debug.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="468">
-              <caret line="11" column="69" selection-start-line="7" selection-start-column="4" selection-end-line="11" selection-end-column="62" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.sh" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pyasciigraph/build.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="540">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.sbt" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="build.sbt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build.sbt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="269" max-vertical-offset="900">
-              <caret line="44" column="65" selection-start-line="44" selection-start-column="65" selection-end-line="44" selection-end-column="65" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AsciiGraph.scala" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/ascii/AsciiGraph.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.039087947" vertical-offset="0" max-vertical-offset="921">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.16857441" vertical-offset="0" max-vertical-offset="961">
+              <caret line="9" column="41" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -135,35 +321,19 @@
     </FindUsagesManager>
   </component>
   <component name="IdeDocumentHistory">
-    <option name="changedFiles">
+    <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project/plugins.sbt" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/ascii/package.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/ascii/Ascii.scala" />
-        <option value="$PROJECT_DIR$/pyasciigraph/debug.py" />
-        <option value="$PROJECT_DIR$/pyasciigraph/MANIFEST.in" />
-        <option value="$PROJECT_DIR$/pyasciigraph/_profile.py" />
-        <option value="$PROJECT_DIR$/pyasciigraph/setup.py" />
-        <option value="$PROJECT_DIR$/pyasciigraph/dependencies.txt" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/ascii/AsciiGraphContainer.scala" />
-        <option value="$PROJECT_DIR$/pyasciigraph/asciinet/_libutil.py" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/ascii/Server.scala" />
-        <option value="$PROJECT_DIR$/pyasciigraph/_debug.py" />
         <option value="$PROJECT_DIR$/pyasciigraph/build.sh" />
         <option value="$PROJECT_DIR$/build.sbt" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/ascii/AsciiGraph.scala" />
         <option value="$PROJECT_DIR$/pyasciigraph/asciinet/__version__.py" />
-        <option value="$PROJECT_DIR$/pyasciigraph/asciinet/__init__.py" />
-        <option value="$PROJECT_DIR$/pyasciigraph/asciinet/test/base.py" />
-        <option value="$PROJECT_DIR$/pyasciigraph/asciinet/test/test_ascii.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="393" />
-    <option name="y" value="260" />
-    <option name="width" value="1562" />
-    <option name="height" value="1039" />
+    <option name="x" value="221" />
+    <option name="y" value="274" />
+    <option name="width" value="1389" />
+    <option name="height" value="1079" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -191,6 +361,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -206,7 +378,7 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="asciigraph" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -216,25 +388,11 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="asciigraph" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="asciigraph" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="asciigraph" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="pyasciigraph" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -244,17 +402,41 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="asciigraph" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemId" value="pyasciigraph" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="asciinet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="asciigraph" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="asciigraph" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pyasciigraph" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="asciinet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -272,7 +454,7 @@
     <property name="recentsLimit" value="5" />
     <property name="LayoutCode.rearrangeEntriesScala" value="false" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../gitprojects/ascii-graphs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../gitprojects/sparql-qa" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -294,6 +476,7 @@
       <module name="pyasciigraph" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pyasciigraph/asciinet/__init__.py" />
       <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
@@ -312,6 +495,7 @@
       <module name="pyasciigraph" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pyasciigraph/_debug.py" />
       <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
@@ -330,11 +514,13 @@
       <module name="pyasciigraph" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pyasciigraph/_profile.py" />
       <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
     <configuration default="false" name="Server" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="com.ascii.Server" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -402,6 +588,8 @@
       <method />
     </configuration>
     <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="scalaCoverage" />
       <module name="" />
       <setting name="path" value="" />
       <setting name="package" value="" />
@@ -412,6 +600,7 @@
       <setting name="testName" value="" />
       <setting name="testKind" value="Class" />
       <setting name="showProgressMessages" value="true" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -436,6 +625,7 @@
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -482,6 +672,7 @@
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -522,6 +713,17 @@
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <module name="pyasciigraph" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -536,6 +738,29 @@
       <module name="asciigraph" />
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="JAR_PATH" value="$PROJECT_DIR$/pyasciigraph/asciinet/lib/asciigraph-assembly-0.2.1.jar" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -561,6 +786,7 @@
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -575,6 +801,8 @@
       <method />
     </configuration>
     <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="scalaCoverage" />
       <module name="" />
       <setting name="path" value="" />
       <setting name="package" value="" />
@@ -585,6 +813,7 @@
       <setting name="testName" value="" />
       <setting name="testKind" value="Class" />
       <setting name="showProgressMessages" value="true" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -627,6 +856,8 @@
       <method />
     </configuration>
     <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="scalaCoverage" />
       <module name="" />
       <setting name="path" value="" />
       <setting name="package" value="" />
@@ -637,6 +868,7 @@
       <setting name="testName" value="" />
       <setting name="testKind" value="Class" />
       <setting name="showProgressMessages" value="true" />
+      <envs />
       <method />
     </configuration>
     <list size="4">
@@ -728,171 +960,246 @@
     <task active="true" id="Default" summary="Default task">
       <changelist id="d159f2ff-1e2c-437a-a738-be144cb10c9f" name="Default" comment="" />
       <created>1405581119731</created>
+      <option name="number" value="Default" />
       <updated>1405581119731</updated>
     </task>
     <task id="LOCAL-00001">
       <created>1405581350104</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
       <updated>1405581350104</updated>
     </task>
     <task id="LOCAL-00002">
       <created>1405582166102</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
       <updated>1405582166102</updated>
     </task>
     <task id="LOCAL-00003">
       <created>1405582480104</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
       <updated>1405582480104</updated>
     </task>
     <task id="LOCAL-00004">
       <created>1405582959179</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
       <updated>1405582959179</updated>
     </task>
     <task id="LOCAL-00005">
       <created>1405583101102</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
       <updated>1405583101102</updated>
     </task>
     <task id="LOCAL-00006">
       <created>1405583767104</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
       <updated>1405583767104</updated>
     </task>
     <task id="LOCAL-00007">
       <created>1405584100102</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
       <updated>1405584100102</updated>
     </task>
     <task id="LOCAL-00008">
       <created>1405584176103</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
       <updated>1405584176103</updated>
     </task>
     <task id="LOCAL-00009">
       <created>1405584542102</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
       <updated>1405584542102</updated>
     </task>
     <task id="LOCAL-00010">
       <created>1405586248102</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
       <updated>1405586248102</updated>
     </task>
     <task id="LOCAL-00011">
       <created>1405586378103</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
       <updated>1405586378103</updated>
     </task>
     <task id="LOCAL-00012">
       <created>1405588027102</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
       <updated>1405588027102</updated>
     </task>
     <task id="LOCAL-00013">
       <created>1405588047103</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
       <updated>1405588047103</updated>
     </task>
     <task id="LOCAL-00014">
       <created>1405588618102</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
       <updated>1405588618102</updated>
     </task>
     <task id="LOCAL-00015">
       <created>1405589162102</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
       <updated>1405589162102</updated>
     </task>
     <task id="LOCAL-00016">
       <created>1405589554103</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
       <updated>1405589554103</updated>
     </task>
     <task id="LOCAL-00017">
       <created>1405589606103</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
       <updated>1405589606103</updated>
     </task>
     <task id="LOCAL-00018">
       <created>1405589712103</created>
+      <option name="number" value="00018" />
+      <option name="project" value="LOCAL" />
       <updated>1405589712103</updated>
     </task>
     <task id="LOCAL-00019">
       <created>1405590022103</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
       <updated>1405590022103</updated>
     </task>
     <task id="LOCAL-00020">
       <created>1405590137103</created>
+      <option name="number" value="00020" />
+      <option name="project" value="LOCAL" />
       <updated>1405590137103</updated>
     </task>
     <task id="LOCAL-00021" summary="version 0.1.4&#10;&#10;- prints ascii! nice :)">
       <created>1405595511105</created>
+      <option name="number" value="00021" />
+      <option name="project" value="LOCAL" />
       <updated>1405595511105</updated>
     </task>
     <task id="LOCAL-00022" summary="version 0.1.4&#10;&#10;- prints ascii! nice :)">
       <created>1405596331110</created>
+      <option name="number" value="00022" />
+      <option name="project" value="LOCAL" />
       <updated>1405596331110</updated>
     </task>
     <task id="LOCAL-00023" summary="version 0.1.4&#10;&#10;- prints ascii! nice :)">
       <created>1405596858103</created>
+      <option name="number" value="00023" />
+      <option name="project" value="LOCAL" />
       <updated>1405596858103</updated>
     </task>
     <task id="LOCAL-00024" summary="version 0.1.5&#10;&#10;- done, works nicely">
       <created>1405625986103</created>
+      <option name="number" value="00024" />
+      <option name="project" value="LOCAL" />
       <updated>1405625986103</updated>
     </task>
     <task id="LOCAL-00025" summary="version 0.1.5&#10;&#10;- done, works nicely">
       <created>1405626538102</created>
+      <option name="number" value="00025" />
+      <option name="project" value="LOCAL" />
       <updated>1405626538102</updated>
     </task>
     <task id="LOCAL-00026" summary="version 0.1.6&#10;&#10;- timeout on method call ...">
       <created>1405627174102</created>
+      <option name="number" value="00026" />
+      <option name="project" value="LOCAL" />
       <updated>1405627174102</updated>
     </task>
     <task id="LOCAL-00027" summary="version 0.1.9&#10;&#10;- can convert multiple graphs on the same java instance, faster (avoid jvm start overhead, also multithreaded safe)">
       <created>1405962266103</created>
+      <option name="number" value="00027" />
+      <option name="project" value="LOCAL" />
       <updated>1405962266103</updated>
     </task>
     <task id="LOCAL-00028" summary="version 0.1.9&#10;&#10;- can convert multiple graphs on the same java instance, faster (avoid jvm start overhead, also multithreaded safe)">
       <created>1406192709103</created>
+      <option name="number" value="00028" />
+      <option name="project" value="LOCAL" />
       <updated>1406192709103</updated>
     </task>
     <task id="LOCAL-00029" summary="version 0.1.9&#10;&#10;- upgraded to asciigraph 0.1.6">
       <created>1406720579101</created>
+      <option name="number" value="00029" />
+      <option name="project" value="LOCAL" />
       <updated>1406720579101</updated>
     </task>
     <task id="LOCAL-00030" summary="version 0.2.0&#10;&#10;- separated _libutil module">
       <created>1406722236102</created>
+      <option name="number" value="00030" />
+      <option name="project" value="LOCAL" />
       <updated>1406722236102</updated>
     </task>
     <task id="LOCAL-00031" summary="version 0.2.1&#10;&#10;- small refactorings">
       <created>1406724179103</created>
+      <option name="number" value="00031" />
+      <option name="project" value="LOCAL" />
       <updated>1406724179103</updated>
     </task>
     <task id="LOCAL-00032" summary="version 0.2.2&#10;&#10;- updated simplehttp">
       <created>1407080589102</created>
+      <option name="number" value="00032" />
+      <option name="project" value="LOCAL" />
       <updated>1407080589102</updated>
     </task>
     <task id="LOCAL-00033" summary="version 0.3.0&#10;&#10;- updated and nicer :)">
       <created>1409057877103</created>
+      <option name="number" value="00033" />
+      <option name="project" value="LOCAL" />
       <updated>1409057877103</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="version 0.3.0&#10;&#10;- updated and nicer :)">
+      <created>1409586458103</created>
+      <option name="number" value="00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1409586458103</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="393" y="260" width="1562" height="1039" extended-state="0" />
+    <frame x="221" y="274" width="1389" height="1079" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47724974" sideWeight="0.49970502" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47839832" sideWeight="0.49970502" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30411828" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295626" sideWeight="0.500295" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3252376" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32457027" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT Execute" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2602108" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.61457235" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23345725" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.61457235" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295626" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -927,6 +1234,7 @@
     <breakpoint-manager>
       <option name="time" value="1" />
     </breakpoint-manager>
+    <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -937,7 +1245,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="900" max-vertical-offset="1494">
           <caret line="59" column="101" selection-start-line="59" selection-start-column="81" selection-end-line="59" selection-end-column="81" />
-          <folding />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1172,13 +1482,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/ascii/AsciiGraphContainer.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15635179" vertical-offset="0" max-vertical-offset="921">
-          <caret line="8" column="63" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pyasciigraph/asciinet/test/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="921">
@@ -1197,13 +1500,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35255712" vertical-offset="0" max-vertical-offset="1206">
           <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/ascii/Server.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13710555" vertical-offset="0" max-vertical-offset="919">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -1228,41 +1524,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="269" max-vertical-offset="900">
-          <caret line="44" column="65" selection-start-line="44" selection-start-column="65" selection-end-line="44" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.ivy2/local/com.github.mdr/ascii-graphs_2.11/0.0.7/srcs/ascii-graphs_2.11-sources.jar!/com/github/mdr/ascii/graph/Graph.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.37214363" vertical-offset="0" max-vertical-offset="1530">
           <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyasciigraph/asciinet/__version__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.077419356" vertical-offset="0" max-vertical-offset="465">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyasciigraph/build.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="540">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyasciigraph/_debug.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432">
-          <caret line="11" column="69" selection-start-line="7" selection-start-column="4" selection-end-line="11" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1283,20 +1548,69 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pyasciigraph/asciinet/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="642" max-vertical-offset="1584">
-          <caret line="67" column="49" selection-start-line="67" selection-start-column="46" selection-end-line="67" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1764">
+          <caret line="22" column="50" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyasciigraph/_debug.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39512196" vertical-offset="0" max-vertical-offset="820">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/ascii/Server.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24146341" vertical-offset="0" max-vertical-offset="820">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyasciigraph/build.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19756098" vertical-offset="0" max-vertical-offset="820">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/ascii/AsciiGraphContainer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24146341" vertical-offset="0" max-vertical-offset="820">
+          <caret line="11" column="52" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/ascii/AsciiGraph.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.039087947" vertical-offset="0" max-vertical-offset="921">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.26341462" vertical-offset="0" max-vertical-offset="820">
+          <caret line="12" column="62" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyasciigraph/asciinet/__version__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.03746098" vertical-offset="0" max-vertical-offset="961">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16857441" vertical-offset="0" max-vertical-offset="961">
+          <caret line="9" column="41" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
   </component>
 </project>
-
