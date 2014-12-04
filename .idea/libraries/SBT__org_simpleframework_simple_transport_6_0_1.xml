@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="SBT: org.simpleframework:simple-transport:6.0.1">
-    <CLASSES>
-      <root url="jar://$USER_HOME$/.ivy2/cache/org.simpleframework/simple-transport/jars/simple-transport-6.0.1.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
