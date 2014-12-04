@@ -1,9 +1,10 @@
-build/*
-dist/*
-__test/*
-asyncrpc.egg-info/*
-asyncrpc/test/*.pyc
-asyncrpc/*.pyc
-.idea/*
+projectFilesBackup/*
+target
+project/target/*
 .idea
 .DS_Store
+pyasciinet/build/*
+pyasciinet/dist/*
+pyasciinet/asciinet.egg-info/*
+pyasciinet/asciinet/test/*.pyc
+pyasciinet/asciinet/*.pyc
