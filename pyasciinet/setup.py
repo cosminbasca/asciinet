@@ -31,7 +31,7 @@ str_version = None
 execfile('{0}/__version__.py'.format(NAME))
 
 # Load up the description from README
-with open('README') as f:
+with open('README.md') as f:
     DESCRIPTION = f.read()
 
 pip_deps = [

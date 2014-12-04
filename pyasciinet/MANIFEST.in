@@ -9,3 +9,6 @@ exclude *.pdf
 exclude *.iml
 exclude *.xlsx
 exclude _*.py
+include LICENSE
+include NOTICE
+include README.md
