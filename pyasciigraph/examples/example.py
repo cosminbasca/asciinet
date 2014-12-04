@@ -16,14 +16,19 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
+from time import time
+import networkx as nx
 from asciinet import graph_to_ascii
-from asciinet.test.base import BaseTestCase
-
 
 __author__ = 'basca'
 
+if __name__ == '__main__':
+    G = nx.Graph()
+    G.add_node(1)
+    G.add_nodes_from([2, 3, 4])
+    # G.add_edges_from([(1, 2), (1, 3), (3, 4), (1, 4), (2, 4), (2, 3)])
+    G.add_edges_from([(1, 2), (1, 3), (3, 4), (1, 4), (2, 4)])
 
-class TestClient(BaseTestCase):
-    def test_to_ascii(self):
-        ascii = graph_to_ascii(self.graph)
-        self.assertEqual(ascii.replace("\n", "").replace("\t", "").replace(" ", "").strip(), self.graph_repr)
+    t0 = time()
+    print graph_to_ascii(G)
+    print 'took {0} seconds'.format(time() - t0)
