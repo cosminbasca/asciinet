@@ -13,7 +13,7 @@ TODO's
 
 How to Install the Project
 --------------------------
-To install **asciinet** you have two options: 1) manual installation (install requirements first) or 2) automatic with **pip**
+First make sure java is installed on your system. To install **asciinet** you have two options: 1) manual installation (install requirements first) or 2) automatic with **pip**
 
 Install the project manually from source (after downloading it locally):
 ```sh
