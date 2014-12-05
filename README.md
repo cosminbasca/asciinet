@@ -28,6 +28,39 @@ $ pip install https://github.com/cosminbasca/asciinet/pyasciinet
 
 Also have a look at the build.sh script included in the codebase for a complete setup of the build process 
 
+Example
+-------
+
+```python
+import networkx as nx
+from asciinet import graph_to_ascii
+
+# create a simple graph
+G = nx.Graph()
+G.add_node(1)
+G.add_nodes_from([2, 3, 4])
+G.add_edges_from([(1, 2), (1, 3), (3, 4), (1, 4), (2, 4)])
+
+# should print
+#  ┌───────┐
+#  │   1   │
+#  └┬────┬┬┘
+#   │    ││
+#   │    └┼───┐
+#   v     v   │
+# ┌───┐ ┌───┐ │
+# │ 2 │ │ 3 │ │
+# └──┬┘ └─┬─┘ │
+#    │    │   │
+#    │   ┌┼───┘
+#    │   ││
+#    v   vv
+#  ┌───────┐
+#  │   4   │
+#  └───────┘
+print graph_to_ascii(G)
+```
+
 Thanks a lot to
 ---------------
 * [University of Zurich](http://www.ifi.uzh.ch/ddis.html) and the [Swiss National Science Foundation](http://www.snf.ch/en/Pages/default.aspx) for generously funding the research that led to this software.
