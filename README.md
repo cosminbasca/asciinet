@@ -13,50 +13,53 @@ TODO's
 
 How to Install the Project
 --------------------------
-First make sure java is installed on your system. To install **asciinet** you have two options: 1) manual installation (install requirements first) or 2) automatic with **pip**
+First make sure java is installed on your system. To install **asciinet** follow these instructions:
 
-Install the project manually from source (after downloading it locally):
 ```sh
-$ cd pyasciinet
+$ git clone https://github.com/cosminbasca/asciinet
+$ cd asciinet/pyasciinet
 $ python setup.py install
 ```
 
-Install the project with pip:
-```sh
-$ pip install https://github.com/cosminbasca/asciinet/pyasciinet
-```
-
-Also have a look at the build.sh script included in the codebase for a complete setup of the build process 
+Also have a look at the build.sh script included in the codebase for a complete setup of the build process
 
 Example
 -------
 
 ```python
->>> import networkx as nx
->>> from asciinet import graph_to_ascii
->>>
->>> G = nx.Graph()
->>> G.add_node(1)
->>> G.add_nodes_from([2, 3, 4])
->>> G.add_edges_from([(1, 2), (1, 3), (3, 4), (1, 4), (2, 4)])
->>> print graph_to_ascii(G)
-  ┌───────┐
-  │   1   │
-  └┬────┬┬┘
-   │    ││
-   │    └┼───┐
-   v     v   │
- ┌───┐ ┌───┐ │
- │ 2 │ │ 3 │ │
- └──┬┘ └─┬─┘ │
-    │    │   │
-    │   ┌┼───┘
-    │   ││
-    v   vv
-  ┌───────┐
-  │   4   │
-  └───────┘
->>>
+import networkx as nx
+from asciinet import graph_to_ascii
+
+#
+# create a simple graph
+#
+G = nx.Graph()
+G.add_node(1)
+G.add_nodes_from([2, 3, 4])
+G.add_edges_from([(1, 2), (1, 3), (3, 4), (1, 4), (2, 4)])
+
+#
+# should print
+#  ┌───────┐
+#  │   1   │
+#  └┬────┬┬┘
+#   │    ││
+#   │    └┼───┐
+#   v     v   │
+# ┌───┐ ┌───┐ │
+# │ 2 │ │ 3 │ │
+# └──┬┘ └─┬─┘ │
+#    │    │   │
+#    │   ┌┼───┘
+#    │   ││
+#    v   vv
+#  ┌───────┐
+#  │   4   │
+#  └───────┘
+#
+print graph_to_ascii(G)
+
+
 
 
 ```
