@@ -32,33 +32,33 @@ Example
 -------
 
 ```python
-import networkx as nx
-from asciinet import graph_to_ascii
+>>> import networkx as nx
+>>> from asciinet import graph_to_ascii
+>>>
+>>> G = nx.Graph()
+>>> G.add_node(1)
+>>> G.add_nodes_from([2, 3, 4])
+>>> G.add_edges_from([(1, 2), (1, 3), (3, 4), (1, 4), (2, 4)])
+>>> print graph_to_ascii(G)
+  ┌───────┐
+  │   1   │
+  └┬────┬┬┘
+   │    ││
+   │    └┼───┐
+   v     v   │
+ ┌───┐ ┌───┐ │
+ │ 2 │ │ 3 │ │
+ └──┬┘ └─┬─┘ │
+    │    │   │
+    │   ┌┼───┘
+    │   ││
+    v   vv
+  ┌───────┐
+  │   4   │
+  └───────┘
+>>>
 
-# create a simple graph
-G = nx.Graph()
-G.add_node(1)
-G.add_nodes_from([2, 3, 4])
-G.add_edges_from([(1, 2), (1, 3), (3, 4), (1, 4), (2, 4)])
 
-# should print
-#  ┌───────┐
-#  │   1   │
-#  └┬────┬┬┘
-#   │    ││
-#   │    └┼───┐
-#   v     v   │
-# ┌───┐ ┌───┐ │
-# │ 2 │ │ 3 │ │
-# └──┬┘ └─┬─┘ │
-#    │    │   │
-#    │   ┌┼───┘
-#    │   ││
-#    v   vv
-#  ┌───────┐
-#  │   4   │
-#  └───────┘
-print graph_to_ascii(G)
 ```
 
 Thanks a lot to
