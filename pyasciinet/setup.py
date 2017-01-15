@@ -28,7 +28,9 @@ except ImportError:
 NAME = 'asciinet'
 
 str_version = None
-execfile('{0}/__version__.py'.format(NAME))
+print('{0}/__version__.py'.format(NAME))
+exec(open('{0}/__version__.py'.format(NAME)).read())
+#execfile('{0}/__version__.py'.format(NAME))
 
 # Load up the description from README
 with open('README.md') as f:
