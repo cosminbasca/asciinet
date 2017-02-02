@@ -62,10 +62,9 @@ class _AsciiGraphProxy(object):
         try:
             line = ''
             while not line.startswith(self._prefix):
-                line = self._proc.stdout.readline()
-
+                line = self._proc.stdout.readline().decode(encoding='UTF-8')
             self._port = int(line.replace(self._prefix, '').strip())
-        except Exception, e:
+        except Exception as e:
             self._proc.kill()
             raise e
         self._url = 'http://127.0.0.1:{0}/asciiGraph'.format(self._port)
@@ -80,7 +79,6 @@ class _AsciiGraphProxy(object):
                 'vertices': [str(v) for v in graph.nodes_iter()],
                 'edges': [[str(e[0]), str(e[1])] for e in graph.edges_iter()],
             })
-
             response = requests.post(self._url, data=graph_repr, timeout=timeout)
             if response.status_code == 200:
                 return loads(response.content)
@@ -107,4 +105,4 @@ def graph_to_ascii(graph, timeout=10):
     if not isinstance(graph, nx.Graph):
         raise ValueError('graph must be a networkx.Graph')
 
-    return _asciigraph.graph_to_ascii(graph, timeout=timeout)
+    return _asciigraph.graph_to_ascii(graph, timeout=timeout).decode(encoding='UTF-8')
