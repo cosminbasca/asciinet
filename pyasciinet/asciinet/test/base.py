@@ -30,8 +30,8 @@ def catch_exception(func):
     def wrapper(*args, **kwargs):
         try:
             func(*args, **kwargs)
-        except Exception, e:
-            print 'Have exception in [{0}]: {1}, \ntraceback = \n{2}'.format(func.__name__, e, traceback.format_exc())
+        except Exception as e:
+            print ('Have exception in [{0}]: {1}, \ntraceback = \n{2}'.format(func.__name__, e, traceback.format_exc()))
 
     return wrapper
 
