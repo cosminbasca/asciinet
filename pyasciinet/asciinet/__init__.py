@@ -76,8 +76,8 @@ class _AsciiGraphProxy(object):
     def graph_to_ascii(self, graph, timeout=10):
         try:
             graph_repr = dumps({
-                'vertices': [str(v) for v in graph.nodes_iter()],
-                'edges': [[str(e[0]), str(e[1])] for e in graph.edges_iter()],
+                'vertices': [str(v) for v in graph.nodes()],
+                'edges': [[str(e[0]), str(e[1])] for e in graph.edges()],
             })
             response = requests.post(self._url, data=graph_repr, timeout=timeout)
             if response.status_code == 200:
