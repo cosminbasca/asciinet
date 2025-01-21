@@ -51,7 +51,7 @@ class _AsciiGraphProxy(object):
         self._prefix = '{0}='.format(uuid.uuid1())
         ascii_opts = ['--port', str(port), '--die_on_broken_pipe', '--port_notification_prefix', self._prefix]
         latest_version, jar_path = latest_jar()
-        self._command = ["java", "-classpath", jar_path] + ['.'.join(['com', 'ascii', 'Server'])] + ascii_opts
+        self._command = ["javaw", "-classpath", jar_path] + ['.'.join(['com', 'ascii', 'Server'])] + ascii_opts
         self._proc = None
         self._port = None
         self._url = None
